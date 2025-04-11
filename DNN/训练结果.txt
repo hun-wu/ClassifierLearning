@@ -1,0 +1,40 @@
+参数设置：
+tokenizer：bert
+embedding-dim：512
+DNN：512-512-256-64-labels_num
+Dropout:None
+epoch：50（100）
+
+## Prompt1：
+Test Accuracy: 48.74%
+Quadratic Weighted Kappa (QWK): 0.7332
+
+prompt 2:
+Test Accuracy: 70.83%
+Quadratic Weighted Kappa (QWK): 0.7005
+
+prompt 3:   (但是只跑6个epoch却能达到66%和0.71，我感觉是因为损失函数选得不对的原因）
+Test Accuracy: 55.49%
+Quadratic Weighted Kappa (QWK): 0.5257
+
+
+prompt 4:
+Test Accuracy: 60.00%
+Quadratic Weighted Kappa (QWK): 0.7663
+
+prompt 5：
+Test Accuracy: 70.91%
+Quadratic Weighted Kappa (QWK): 0.8314
+
+prompt 6:
+Test Accuracy: 66.39%
+Quadratic Weighted Kappa (QWK): 0.7842
+
+prompt 7:(有点儿不匹配，可以但是有点儿奇怪。）
+Test Accuracy: 14.33%
+Quadratic Weighted Kappa (QWK): 0.7549
+
+prompt 8:(啊？）
+Test Accuracy: 4.11%
+Quadratic Weighted Kappa (QWK): 0.1057
+
